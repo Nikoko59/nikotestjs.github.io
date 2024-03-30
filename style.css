@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+    background: whitesmoke; 
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+    
+}
+
+/* Logo */
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+
+    }
+#logo {
+height: 200px;
+width: 200px;
+border-radius: 200px;
+margin: 10px;
+}
+
+ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    font-size : 1.2rem; 
+    width: 100px;
+    text-align: center;
+    
+}
+
+li:first-child{
+    background: orange;
+    color :#070142 ; 
+    padding: 10px;
+    border-radius : 200px ; 
+}
+
+li::first-letter {
+    font-size: 1.7rem; 
+
+}
+
+#answer {
+
+    margin: 20px auto;
+    display: block; 
+    font-size: 1.5rem;
+    z-index : 2; 
+ visibility: hidden;
+ 
+    color :white; 
+ 
+
+}
+
+
+/* container */
+
+
+
+.content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    min-height: 600px;
+
+    background: url("./assets/img/win.png") no-repeat center/cover;
+margin-top: 30px;
+position : relative ; 
+
+
+
+}
+
+#tit{
+    background: orange ;
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    font-size : 2.5rem;
+  margin: 50px auto;
+  z-index : 2; 
+  border-radius : 200px; 
+}
+
+#par1{
+    font-size : .9rem ; 
+    color: white; 
+    z-index: 2;
+
+
+
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top : 0; 
+    position : absolute ; 
+    opacity : 0.7 ; 
+display: block;
+}
+
+
+
+
+#btn1 {
+    width: 200px; 
+    background: blue; 
+    color : white; 
+    padding: 10px;
+    z-index : 2; 
+
+
+}
+
+/* section */
+.contentTwo {
+    margin-top: 30px;
+    background: rgb(235, 235, 184);
+   padding-top: 4%;
+   padding-bottom : 0;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   width: 100%;
+
+}
+h4{
+    font-size: 3rem;
+}
+
+#par2{
+    font-size : 1.7rem; 
+}
+
+.right-content {
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+}
+#btn2{
+    padding: 12px;
+    font-size : 1.2rem; 
+    background: white;
+    border: 2px solid black ; 
+}
+
+.left-content{
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+}
+
+ #laugh{
+width: 100%;
+ border-radius : 50px; 
+ opacity : 0.7; 
+ height: 100%;
+}
+
+/* boxes */
+.boxes {
+    display: flex;
+    justify-content: center ; 
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom : 30px; 
+
+    background: #f2f2f2;
+}
+
+.box {
+    width: 33%;
+}
+
+#box2 {
+    font-size : 2rem ; 
+    color : red ; 
+    background: black ;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto ; 
+}
+
+.box1 {
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin : 0 auto; 
+    
+}
+
+.text{
+    margin : 0 auto ; 
+    display: block;
+    font-size : 0.9rem ; 
+    font-weight: 400; 
+   background: red;
+   width: 200px;
+   text-align: center;;
+
+}
+
+i {
+font-size : 2rem;
+background: red;
+padding: 30px;
+color: white; 
+border-radius : 50px; 
+}
+
+/* work */
+.work {
+    background: rgb(247, 247, 207);
+    height : 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom : 40px; 
+}
+
+.working {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-size : 1.5rem;
+    color : rgb(119, 1, 1) ; 
+    border-bottom: 2px solid blueviolet;
+    width: 200px;
+}
+
+#women{
+    height: 200px;
+    width: 200px;
+    border-radius : 500px; 
+    border: 2px solid black ; 
+    opacity : 0.5; 
+    display: block;
+    margin: 10px auto;
+
+
+}
+
+#happy{
+    height: 200px;
+    width: 200px;
+    border-radius : 500px; 
+    border: 2px solid black ; 
+    opacity : 0.5; 
+    display: block;
+    margin: 10px auto;
+
+
+}
+#life{
+    height: 200px;
+    width: 200px;
+    border-radius : 500px; 
+    border: 2px solid black ; 
+    opacity : 0.5; 
+    display: block;
+    margin: 10px auto;
+
+
+}
+#happy:hover{
+    opacity : 1 ; 
+    transition : 0.6s ease-in ; 
+}
+#life:hover{
+    opacity : 1 ; 
+    transition : 0.3s ease-in ; 
+}
+
+
+#women:hover{
+    opacity : 1 ; 
+    transition : 0.6s ease-in ; 
+}
+
+.withme{
+    padding: 10px;
+    width: 33%;
+}
+
+.par3 {
+    font-size : 0.9rem; 
+    line-height: 1.7em; 
+    letter-spacing: 0.5px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
